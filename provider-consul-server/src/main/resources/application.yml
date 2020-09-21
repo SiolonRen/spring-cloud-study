@@ -1,0 +1,25 @@
+# 容器设置
+spring:
+  application:
+    name: cloud-study-provider-consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+---
+spring:
+  profiles: provider-01
+server:
+  port: 8043
+
+---
+spring:
+  profiles: provider-02
+server:
+  port: 8044
+
+
+
+

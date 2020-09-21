@@ -1,0 +1,27 @@
+# 容器设置
+spring:
+  application:
+    name: cloud-study-provider-zk
+  cloud:
+    zookeeper:
+      # 默认localhost:2181
+      connect-string: localhost:2181
+
+---
+server:
+  port: 8043
+spring:
+  profiles: provider-zk-01
+
+
+
+---
+server:
+  port: 8044
+spring:
+  profiles: provider-zk-02
+
+
+
+
+

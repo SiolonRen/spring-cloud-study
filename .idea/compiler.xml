@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-server" />
+        <module name="consumer-ofeign-hystrix-server" />
+        <module name="provider-hystrix-server" />
+        <module name="consumer-ofeign-server" />
+        <module name="provider-consul-server" />
+        <module name="provider-server" />
+        <module name="eureka-server" />
+        <module name="study-common" />
+        <module name="provider-zk-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-ofeign-hystrix-server" target="1.8" />
+      <module name="consumer-ofeign-server" target="1.8" />
+      <module name="consumer-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="provider-consul-server" target="1.8" />
+      <module name="provider-hystrix-server" target="1.8" />
+      <module name="provider-server" target="1.8" />
+      <module name="provider-zk-server" target="1.8" />
+      <module name="spring-cloud-study" target="1.8" />
+      <module name="study-common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

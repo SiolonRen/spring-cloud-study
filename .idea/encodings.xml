@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-ofeign-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-ofeign-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-consul-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-hystrix-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-zk-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-common/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

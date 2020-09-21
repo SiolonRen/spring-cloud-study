@@ -1,0 +1,52 @@
+# 容器设置
+spring:
+  application:
+    name: cloud-study-eureka-server
+
+eureka:
+  client:
+    # false表示不向服务中心注册自己
+    register-with-eureka: false
+    # false表示自己就是注册中心，不需要检索服务
+    fetch-registry: false
+  server:
+    enable-self-preservation: off
+---
+spring:
+  profiles: eureka-server-01
+server:
+  port: 1205
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server-02:1206/eureka/,http://eureka-server-03:1207/eureka/
+  instance:
+    hostname: eureka-server-01
+
+---
+spring:
+  profiles: eureka-server-02
+server:
+  port: 1206
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server-03:1207/eureka/,http://eureka-server-01:1205/eureka/
+    instance:
+      hostname: eureka-server-02
+
+
+---
+spring:
+  profiles: eureka-server-03
+server:
+  port: 1207
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server-01:1205/eureka/,http://eureka-server-02:1206/eureka/
+    instance:
+      hostname: eureka-server-03
+
+
+

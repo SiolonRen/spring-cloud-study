@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer-ofeign-hystrix-server/consumer-ofeign-hystrix-server.iml" filepath="$PROJECT_DIR$/consumer-ofeign-hystrix-server/consumer-ofeign-hystrix-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-ofeign-server/consumer-ofeign-server.iml" filepath="$PROJECT_DIR$/consumer-ofeign-server/consumer-ofeign-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-server/consumer-server.iml" filepath="$PROJECT_DIR$/consumer-server/consumer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-consul-server/provider-consul-server.iml" filepath="$PROJECT_DIR$/provider-consul-server/provider-consul-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-hystrix-server/provider-hystrix-server.iml" filepath="$PROJECT_DIR$/provider-hystrix-server/provider-hystrix-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-server/provider-server.iml" filepath="$PROJECT_DIR$/provider-server/provider-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-zk-server/provider-zk-server.iml" filepath="$PROJECT_DIR$/provider-zk-server/provider-zk-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-study.iml" filepath="$PROJECT_DIR$/spring-cloud-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-common/study-common.iml" filepath="$PROJECT_DIR$/study-common/study-common.iml" />
+    </modules>
+  </component>
+</project>
