@@ -2,7 +2,7 @@
 server:
   port: 82
   servlet:
-    context-path: /consumer
+    context-path: /ofHystrix/consumer
 
 # 容器设置
 spring:

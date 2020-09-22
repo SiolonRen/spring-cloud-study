@@ -18,6 +18,7 @@
         <module>consumer-ofeign-server</module>
         <module>consumer-ofeign-hystrix-server</module>
         <module>provider-hystrix-server</module>
+        <module>gateway-server</module>
     </modules>
     <packaging>pom</packaging>
 

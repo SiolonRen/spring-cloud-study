@@ -1,6 +1,5 @@
 package com.pcocoon.of.consumer.config;
 
-import com.pcocoon.of.consumer.interceptor.FeignTokenInterceptor;
 import feign.Logger;
 import feign.Request;
 import feign.auth.BasicAuthRequestInterceptor;
@@ -35,6 +34,7 @@ public class FeignConfiguration {
 
     /**
      * 服务调用日志
+     *
      * @return
      */
     @Bean
@@ -43,19 +43,11 @@ public class FeignConfiguration {
     }
 
     /**
-     * 自定义拦截器
-     */
-    @Bean
-    public FeignTokenInterceptor feignBasicAuthRequestInterceptor(){
-        return new FeignTokenInterceptor();
-    }
-
-    /**
      * 认证配置
      */
     @Bean
-    public BasicAuthRequestInterceptor basicAuthRequestInterceptor(){
-        return new BasicAuthRequestInterceptor("user","password");
+    public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
+        return new BasicAuthRequestInterceptor("user", "password");
     }
 
 }
