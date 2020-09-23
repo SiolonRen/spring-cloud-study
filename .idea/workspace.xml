@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dddc31f-9274-4db7-be74-339bfc31e450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/config/RoutesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="93e7d9e1-e77d-43fd-9bbf-f76265b37292" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/config/CurrentLimitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/config/HostAddrKeyResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/config/TokenRoutePredicateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/controller/FallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ecwid_consul_consul_api_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_x_discovery_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_core_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_discovery_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_2_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_discovery_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_core_2_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_discovery_2_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-ofeign-server/src/main/java/com/pcocoon/of/consumer/config/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-ofeign-server/src/main/java/com/pcocoon/of/consumer/config/FeignConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/java/com/pcocoon/of/hystrix/consumer/controller/StudyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-ofeign-hystrix-server/src/main/java/com/pcocoon/of/hystrix/consumer/controller/StudyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-ofeign-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-ofeign-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-server/src/main/java/com/pcocoon/zk/provider/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-server/src/main/java/com/pcocoon/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-server/src/main/java/com/pcocoon/zk/provider/controller/StudyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-server/src/main/java/com/pcocoon/consumer/controller/StudyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,63 +56,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GiteeDefaultAccount">
-    <option name="defaultAccountId" value="a163f9ef-04ad-4096-9800-494ab05282b7" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1hb99MeEhXCCfpDWczGzoQ3c0OM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1htRahyD15CFFqB63jRPOPrJoEO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/provider-hystrix-server/src/main/java/com/pcocoon/hystrix" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-server/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.14941406" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RebelAgentSelection">
-    <selection>jr</selection>
-  </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pcocoon.of.hystrix.consumer.client" />
-      <recent name="com.pcocoon.provider.tools" />
-      <recent name="com.pcocoon.provider.controller" />
-      <recent name="com.pcocoon.of.hystrix.consumer.config" />
-      <recent name="com.pcocoon.hystrix.provider.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\StudyWorkplace\spring-cloud-study\gateway-server\src\main\resources" />
-      <recent name="E:\SiolonSpace\spring-cloud-study\provider-hystrix-server\src\main\java\com\pcocoon\hystrix\provider\controller" />
-      <recent name="E:\SiolonSpace\spring-cloud-study\provider-server\src\main\java\com\pcocoon\provider\controller" />
-      <recent name="E:\SiolonSpace\spring-cloud-study\provider-hystrix-server\src\main\java\com\pcocoon\hystrix\provider" />
-      <recent name="E:\SiolonSpace\spring-cloud-study\provider-hystrix-server\src\main\resources" />
+      <recent name="D:\StudyWorkplace\spring-cloud-study" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,36 +87,27 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.zk.provider.ConsumerApplication" />
+  <component name="RunManager" selected="Spring Boot.gateway">
+    <configuration name="consumer-of-hystrix" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-ofeign-hystrix-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.of.hystrix.consumer.OfHystrixConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcocoon.getway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.getway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="consumer-of" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-ofeign-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pcocoon.of.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.of.consumer.OfConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.consumer.ConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,9 +139,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ofeign-hystrix-consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer-ofeign-hystrix-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.of.hystrix.consumer.OfHystrixConsumerApplication" />
+    <configuration name="gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcocoon.getway.GatewayApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,198 +184,137 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ofeign-hystrix-consumer" />
-      <item itemvalue="Spring Boot.provider-hystrix-01" />
-      <item itemvalue="Spring Boot.provider-hystrix-02" />
       <item itemvalue="Spring Boot.eureka-server-01" />
       <item itemvalue="Spring Boot.eureka-server-02" />
       <item itemvalue="Spring Boot.eureka-server-03" />
       <item itemvalue="Spring Boot.provider-01" />
       <item itemvalue="Spring Boot.provider-02" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.OfConsumerApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.provider-hystrix-01" />
+      <item itemvalue="Spring Boot.provider-hystrix-02" />
+      <item itemvalue="Spring Boot.consumer-of" />
+      <item itemvalue="Spring Boot.consumer-of-hystrix" />
+      <item itemvalue="Spring Boot.gateway" />
+      <item itemvalue="Spring Boot.consumer" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.OfConsumerApplication" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7dddc31f-9274-4db7-be74-339bfc31e450" name="Default Changelist" comment="" />
-      <created>1600268773081</created>
+      <changelist id="93e7d9e1-e77d-43fd-9bbf-f76265b37292" name="Default Changelist" comment="" />
+      <created>1600828466600</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600268773081</updated>
-      <workItem from="1600268774220" duration="10000" />
-      <workItem from="1600268790904" duration="2330000" />
-      <workItem from="1600349923271" duration="6464000" />
-      <workItem from="1600386811281" duration="328000" />
-      <workItem from="1600482612908" duration="299000" />
-      <workItem from="1600487503699" duration="6973000" />
-      <workItem from="1600588269362" duration="2170000" />
-      <workItem from="1600655245174" duration="642000" />
-      <workItem from="1600656098375" duration="83000" />
-      <workItem from="1600656197148" duration="16937000" />
-      <workItem from="1600681815953" duration="65841000" />
+      <updated>1600828466600</updated>
+      <workItem from="1600828472331" duration="20841000" />
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1600687731521</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600687731521</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="787" y="264" key="#New_Docker_Connection" timestamp="1600493187487">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="787" y="264" key="#New_Docker_Connection/0.0.2048.1112@0.0.2048.1112" timestamp="1600493187487" />
-    <state x="-1447" y="-53" key="#Project_Structure" timestamp="1600766551195">
+    <state x="-1197" y="80" key="#New_Docker_Connection" timestamp="1600828520264">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1447" y="-53" key="#Project_Structure/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600766551195" />
-    <state x="505" y="131" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1600493292543" />
-    <state x="-1471" y="25" width="1176" height="839" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600672389100">
+    <state x="-1197" y="80" key="#New_Docker_Connection/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600828520264" />
+    <state x="-1506" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600847001173">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1471" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600672389100" />
-    <state x="479" y="211" width="1176" height="839" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600589841249" />
-    <state x="-1211" y="228" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1600681754469">
+    <state x="-1506" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600847001173" />
+    <state x="-1155" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1600832354916">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1211" y="228" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600681754469" />
-    <state x="830" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1600589775000">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="830" y="262" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1600589775000" />
-    <state x="-1173" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600672374745">
+    <state x="-1155" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600832354916" />
+    <state x="-1231" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600846991037">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1173" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600672374745" />
-    <state x="797" y="358" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600589823289" />
-    <state x="-1267" y="-74" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600672029860">
+    <state x="-1231" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600846991037" />
+    <state width="750" height="466" key="DebuggerActiveHint" timestamp="1600844371823">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1267" y="-74" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600672029860" />
-    <state x="-1133" y="168" key="#xdebugger.evaluate" timestamp="1600768724861">
+    <state width="750" height="466" key="DebuggerActiveHint/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600844371823" />
+    <state width="1502" height="470" key="GridCell.Tab.0.bottom" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1133" y="168" key="#xdebugger.evaluate/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600768724861" />
-    <state x="-1517" y="-73" key="CommitChangelistDialog2" timestamp="1600687724929">
+    <state width="1502" height="470" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.0.center" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1517" y="-73" key="CommitChangelistDialog2/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600687724929" />
-    <state x="-1185" y="100" key="FileChooserDialogImpl" timestamp="1600687624218">
+    <state width="1502" height="470" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.0.left" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state x="-1185" y="100" key="FileChooserDialogImpl/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600687624218" />
-    <state width="1342" height="288" key="GridCell.Tab.0.bottom" timestamp="1600770532083">
+    <state width="1502" height="470" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070217" />
+    <state width="1502" height="470" key="GridCell.Tab.0.right" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.0.center" timestamp="1600770532083">
+    <state width="1502" height="470" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.1.bottom" timestamp="1600854349326">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.0.left" timestamp="1600770532082">
+    <state width="1502" height="470" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349326" />
+    <state width="1242" height="194" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.1.center" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532082" />
-    <state width="1342" height="288" key="GridCell.Tab.0.right" timestamp="1600770532083">
+    <state width="1502" height="470" key="GridCell.Tab.1.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.1.center/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.1.left" timestamp="1600854349325">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.1.bottom" timestamp="1600770532083">
+    <state width="1502" height="470" key="GridCell.Tab.1.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349325" />
+    <state width="1242" height="194" key="GridCell.Tab.1.left/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="470" key="GridCell.Tab.1.right" timestamp="1600854349326">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.1.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.1.center" timestamp="1600770532083">
+    <state width="1502" height="470" key="GridCell.Tab.1.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600854349326" />
+    <state width="1242" height="194" key="GridCell.Tab.1.right/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="517" key="GridCell.Tab.2.bottom" timestamp="1600845067074">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.1.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.1.left" timestamp="1600770532083">
+    <state width="1502" height="517" key="GridCell.Tab.2.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600845067074" />
+    <state width="1242" height="194" key="GridCell.Tab.2.bottom/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="517" key="GridCell.Tab.2.center" timestamp="1600845067074">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.1.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.1.right" timestamp="1600770532083">
+    <state width="1502" height="517" key="GridCell.Tab.2.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600845067074" />
+    <state width="1242" height="194" key="GridCell.Tab.2.center/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="517" key="GridCell.Tab.2.left" timestamp="1600845067074">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.1.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600770532083" />
-    <state width="1342" height="288" key="GridCell.Tab.2.bottom" timestamp="1600768780392">
+    <state width="1502" height="517" key="GridCell.Tab.2.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600845067074" />
+    <state width="1242" height="194" key="GridCell.Tab.2.left/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state width="1502" height="517" key="GridCell.Tab.2.right" timestamp="1600845067074">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.2.bottom/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600768780392" />
-    <state width="1342" height="288" key="GridCell.Tab.2.center" timestamp="1600768780391">
+    <state width="1502" height="517" key="GridCell.Tab.2.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600845067074" />
+    <state width="1242" height="194" key="GridCell.Tab.2.right/0.0.1600.860/-1920.-180.1920.1080@0.0.1600.860" timestamp="1600842070218" />
+    <state x="-1828" y="-88" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600833229893">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.2.center/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600768780391" />
-    <state width="1342" height="288" key="GridCell.Tab.2.left" timestamp="1600768780391">
+    <state x="-1828" y="-88" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600833229893" />
+    <state x="-1297" y="55" width="672" height="678" key="search.everywhere.popup" timestamp="1600829513754">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1342" height="288" key="GridCell.Tab.2.left/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600768780391" />
-    <state width="1342" height="288" key="GridCell.Tab.2.right" timestamp="1600768780392">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
-    </state>
-    <state width="1342" height="288" key="GridCell.Tab.2.right/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600768780391" />
-    <state x="-1427" y="15" key="SettingsEditor" timestamp="1600682376362">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
-    </state>
-    <state x="-1427" y="15" key="SettingsEditor/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600682376362" />
-    <state x="526" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1600354265411" />
-    <state x="-1368" y="92" key="Vcs.Push.Dialog.v2" timestamp="1600742258510">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
-    </state>
-    <state x="-1368" y="92" key="Vcs.Push.Dialog.v2/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600742258510" />
-    <state x="821" y="334" key="chooseDestDirectoryDialog" timestamp="1600496358790">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="821" y="334" key="chooseDestDirectoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600496358790" />
-    <state x="753" y="383" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600588827094">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="753" y="383" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600588827094" />
-    <state x="-1513" y="31" key="new project wizard" timestamp="1600761272582">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
-    </state>
-    <state x="-1513" y="31" key="new project wizard/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600761272582" />
-    <state x="434" y="217" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1600496029859" />
-    <state x="-1297" y="55" width="672" height="678" key="search.everywhere.popup" timestamp="1600682265276">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
-    </state>
-    <state x="-1297" y="55" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600682265276" />
+    <state x="-1297" y="55" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1600829513754" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-zk-server/src/main/java/com/pcocoon/zk/provider/ProviderApplication.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/gateway-server/src/main/java/com/pcocoon/getway/config/TokenRoutePredicateFactory.java</url>
+          <line>40</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/consumer-ofeign-server/src/main/java/com/pcocoon/of/consumer/interceptor/FeignTokenInterceptor.java</url>
-          <line>20</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.5.RELEASE/spring-cloud-gateway-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.java</url>
+          <line>117</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

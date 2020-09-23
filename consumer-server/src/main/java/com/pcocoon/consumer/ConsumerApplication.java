@@ -1,4 +1,4 @@
-package com.pcocoon.zk.provider;
+package com.pcocoon.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

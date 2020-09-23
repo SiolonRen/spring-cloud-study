@@ -11,15 +11,41 @@ spring:
           # 开启从注册中心动态创建路由的功能，利用微服务名称进行路由注册
           enabled: true
       routes:
-        - id: cloud-study-of-consumer
-          uri: lb://cloud-study-of-consumer
+        - id: cloud-study-consumer
+          uri: lb://cloud-study-consumer
           predicates:
             - Path=/consumer/**
+          filters:
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@hostAddrKeyResolver}"
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 3
+#Redis
+redis:
+  host: localhost
+  port: 6379
 
 
-  application:
-    name: cloud-study-gateway
-
+#网关日志输出
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+#熔断器配置
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000 #超时时间，若不设置超时时间则有可能无法触发熔断
 eureka:
   client:
     # true表示向注册中心注册服务

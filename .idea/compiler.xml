@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
         <module name="consumer-ofeign-server" />
+        <module name="study-common" />
         <module name="provider-server" />
         <module name="consumer-server" />
-        <module name="study-common" />
+        <module name="eureka-server" />
         <module name="provider-hystrix-server" />
         <module name="gateway-server" />
         <module name="consumer-ofeign-hystrix-server" />

@@ -2,7 +2,7 @@
 server:
   port: 81
   servlet:
-    context-path: /consumer
+    context-path: /of/consumer
 
 # 容器设置
 spring:

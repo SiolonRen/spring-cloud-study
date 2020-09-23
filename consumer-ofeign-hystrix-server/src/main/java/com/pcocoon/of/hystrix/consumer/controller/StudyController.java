@@ -30,6 +30,7 @@ public class StudyController {
 
     @GetMapping("/hystrix/hello")
     public RestResult hystrixHello() {
+        log.info("啊啊啊啊啊，我被请求了！");
         return providerHystrixClient.hello();
     }
 
@@ -40,6 +41,7 @@ public class StudyController {
 
     @GetMapping("/hello")
     public RestResult hello() {
+        log.info("啊啊啊啊啊，我被请求了！");
         return providerClient.hello();
     }
 

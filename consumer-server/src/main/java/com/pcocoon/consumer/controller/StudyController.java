@@ -1,4 +1,4 @@
-package com.pcocoon.zk.provider.controller;
+package com.pcocoon.consumer.controller;
 
 import com.pcocoon.entity.RestResult;
 import org.springframework.beans.factory.annotation.Autowired;
